@@ -1,0 +1,74 @@
+/* Apply a universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the entire body in the middle of the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: Add a background color */
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust form width as needed */
+    text-align: center;
+}
+
+/* Add spacing between the form elements */
+form input, form textarea, form button {
+    width: 100%; /* Make the elements fill the width */
+    padding: 10px;
+    margin-bottom: 12px; /* Adds space between form elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the radio buttons */
+form input[type="radio"] {
+    width: auto; /* Keep radio buttons to their natural size */
+    margin-left: 10px; /* Space between radio button and text */
+}
+
+/* Add space between the "gender" label and inputs */
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Add space between submit/reset buttons */
+form button {
+    width: 48%; /* Make the buttons smaller */
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green background for submit */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background-color: #f44336; /* Red background for reset */
+}
+
+form button:hover {
+    opacity: 0.8; /* Make buttons slightly transparent on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+}
+
