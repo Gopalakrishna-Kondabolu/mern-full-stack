@@ -43,9 +43,10 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 button{
+    text-align: center;
     width: 40%;
     height: 10%;
-    padding: 10px;
+    padding-bottom: 5px;
     border: 3px solid black;
     border-radius: 8px;
     background-color: green;
