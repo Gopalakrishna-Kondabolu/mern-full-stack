@@ -12,7 +12,13 @@
         <input type="text" id="uname" name="usname" placeholder="Username" required> <br>
         <input type="password" id="pass" name="password" placeholder="Password" required> <br> 
         <p>Forgot Password?</p> <br>
-        <button>submit</button><br>
+        <button id="bb">submit</button><br>
+        <script>
+            const button = document.getElementById("bb");
+            button.addEventListener('click',function(){
+                alert("submitted successfully")
+            });
+        </script>
     </form>
 </body>
 </html>
