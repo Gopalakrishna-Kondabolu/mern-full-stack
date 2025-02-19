@@ -1,0 +1,25 @@
+.Forward-main {
+    padding: 80px 10px 5px 80px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.Forward-title{
+    color: black;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: condensed;
+}
+.Forward-matter{
+    padding-left: 5px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.Forward-button{
+    margin: 10px;
+    padding: 10px 10px 10px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 140px;
+    height: 20px;
+    color: white;
+    background-color: #0756A4;
+}
