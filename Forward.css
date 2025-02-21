@@ -1,5 +1,5 @@
 .Forward-main {
-    padding: 80px 10px 5px 80px;
+    padding: 60px 10px 5px 40px;
    font-family: 'Times New Roman', Times, serif;
 }
 .Forward-title{
@@ -10,16 +10,22 @@
 }
 .Forward-matter{
     padding-left: 5px;
-    padding-top: 40px;
+    padding-top: 5px;
     font-size: 30px;
 }
 .Forward-button{
     margin: 10px;
     padding: 10px 10px 10px 30px;
-    border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 25px;
     width: 140px;
     height: 20px;
     color: white;
     background-color: #0756A4;
+}
+.Forward-image{
+   width: 370px;
+   position: absolute;
+   left: 800px;
+   top: 700px;
+   padding-top: 20px;
 }

@@ -12,7 +12,11 @@ export const Forward = () => {
                         At Stanjo, we believe lighting is more than just <br /> illumination—it's about enhancing spaces, creating <br /> ambiance, and delivering unmatched efficiency. <br /> Our mission is to provide high-quality, energy-efficient <br /> LED lighting solutions that blend innovation, <br /> durability, and style to brighten homes, offices, and <br /> outdoor spaces.
                     </div>
                     <div className="Forward-button"> Explore Products</div>
+                       
                 </div>
+                <div >
+                            <img className="Forward-image"  src="/bright.jpeg" alt="nothing" />
+                            </div>
             </div>
     );
 };
